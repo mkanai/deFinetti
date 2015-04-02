@@ -1,0 +1,9 @@
+language: r
+
+warnings_are_errors: false
+
+sudo: required
+
+notifications:
+    - cani.m.61st@gmail.com
+

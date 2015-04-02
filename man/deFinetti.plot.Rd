@@ -43,6 +43,8 @@ deFinetti.plot(x, file = "", main = "", vertexlab = colnames(x),
 \item{without_markers}{a logical indicating whether to plot markers}
 
 \item{pdf_out}{a logical indicating whether to output a diagram}
+
+\item{...}{arguments to be passed to \code{plot}}
 }
 \description{
 Plot a de Finetti diagram

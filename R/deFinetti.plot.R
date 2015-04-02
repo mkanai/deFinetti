@@ -17,6 +17,7 @@
 #' @param with_F_color a logical indicating whether to draw colors based on F-statistics
 #' @param without_markers a logical indicating whether to plot markers
 #' @param pdf_out a logical indicating whether to output a diagram
+#' @param ... arguments to be passed to \code{plot}
 #' @export
 deFinetti.plot <- function(x, file = "", main = "", vertexlab = colnames(x), 
                            cex = 1, cex.main = 2, cex.lab = 2, pch = 19,                           
