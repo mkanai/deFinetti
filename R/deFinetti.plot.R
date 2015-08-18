@@ -131,7 +131,7 @@ deFinetti.plot <- function(x, file = "", main = "", vertexlab = colnames(x),
 
     # Vertex Labels
     eps <- .03 * cex*cex.lab
-    Mlab <- M + matrix(c(-eps, 0, 0, eps, eps, 0), ncol = 2, byrow = T)
+    Mlab <- M + matrix(c(eps, 0, 0, eps, -eps, 0), ncol = 2, byrow = T)
     text(Mlab[,1], Mlab[,2], vertexlab, cex = cex*cex.lab)
     
     # Title
