@@ -2,8 +2,8 @@ Package: deFinetti
 Type: Package
 Title: A package for plotting a de Finetti diagram and distributions of
     F-statistics of genotypes.
-Version: 0.1
-Date: 2015-03-13
+Version: 0.2
+Date: 2015-08-18
 Author: Kenji Yamane, Masahiro Kanai
 Maintainer: Masahiro Kanai <mkanai.brc@tmd.ac.jp>
 Description: This package provides a way of plotting a de Finetti diagram with
