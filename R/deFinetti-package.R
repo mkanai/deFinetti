@@ -2,6 +2,7 @@
 #'
 #' A package for plotting a de Finetti diagram and distributions of F-statistics of genotypes.
 #' @name deFinetti
+#' @rdname deFinetti-package
 #' @docType package
 #' @author Masahiro Kanai
 #' @author Kenji Yamane

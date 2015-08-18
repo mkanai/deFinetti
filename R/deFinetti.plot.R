@@ -87,7 +87,7 @@ deFinetti.plot <- function(x, file = "", main = "", vertexlab = colnames(x),
         
     # Triangle
     s <- 1/sqrt(3)
-    M <- matrix(c(-s, 0, 0, 1, s, 0), ncol = 2, byrow = T)
+    M <- matrix(c(s, 0, 0, 1, -s, 0), ncol = 2, byrow = T)
     M2 <- matrix(c(-s, 0, 0, 1, -2*s, 1, -2*s, 0), ncol = 2, byrow = T)
     M3 <- matrix(c(s, 0, 0, 1, 3*s, 1, 3*s, 0), ncol = 2, byrow = T)
         
